@@ -38,7 +38,7 @@ Unzip in a directory and copy all the files in:
 ```
 ./instantclient_18_5/network/admin/   
 ```
-In **[test.py]**(test.py) file change:   
+In [**test.py**](test.py)  file change:   
 ```
 connection = cx_Oracle.connect("myuser", "mypassword", "my_tnsnames")
 ```

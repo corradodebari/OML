@@ -1,5 +1,5 @@
 # Use Python/Pandas to access Oracle Autonomous DB
-This note helps who wants to setup an environment for a Machine Learning project in Python, leveraging dataset on Oracle Autonomous DB. This works on a OCI VM.Standard2.2 shape, with Ubuntu 18.x, and uses ["cx_oracle"](https://oracle.github.io/python-cx_Oracle/) Python libraries to connect Oracle DB and ["Oracle Instant Client"](https://www.oracle.com/database/technologies/instant-client.html).
+This note helps who wants to setup an environment for a Machine Learning project in Python, leveraging dataset on Oracle Autonomous DB. This works on a **OCI** **VM.Standard2.2** shape, with **Ubuntu 18.x**, and uses ["cx_oracle"](https://oracle.github.io/python-cx_Oracle/) Python libraries to connect Oracle DB and ["Oracle Instant Client"](https://www.oracle.com/database/technologies/instant-client.html).
 
 ## 1. Install Oracle Instant Client
 Download from ["here"](https://www.oracle.com/database/technologies/instant-client/downloads.html)
@@ -33,7 +33,7 @@ Eventually install **pip** if not present. Then:
 # pip install cx_oracle
 ```
 ## 3. Configure connection:
-From Autonomous Database/Autonomous Database Details/DB Connection, Download Client Credentials Wallet. Take notes about one of the TNS names of Connection Strings to use later in the code.   
+From **Autonomous Database/Autonomous Database Details/DB Connection**, Download Client Credentials Wallet. Take notes about one of the TNS names of Connection Strings to use later in the code.   
 Unzip in a directory and copy all the files in:    
 ```
 ./instantclient_18_5/network/admin/   

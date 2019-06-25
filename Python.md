@@ -34,9 +34,9 @@ Eventually install **pip** if not present. Then:
 ```
 ## 3. Configure connection:
 From Autonomous Database/Autonomous Database Details/DB Connection, Download Client Credentials Wallet. Take notes about one of the TNS names of Connection Strings to use later in the code.   
-Unzip in a directory and copy all the files in:  
-./instantclient_18_5/network/admin/
-In myscript.py file change:
+Unzip in a directory and copy all the files in:    
+./instantclient_18_5/network/admin/   
+In myscript.py file change:   
 ```
 connection = cx_Oracle.connect("myuser", "mypassword", "mytns_name")
 ```

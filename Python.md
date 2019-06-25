@@ -40,7 +40,7 @@ Unzip in a directory and copy all the files in:
 ```
 In **myscript.py** file change:   
 ```
-connection = cx_Oracle.connect("myuser", "mypassword", "mytns_name")
+connection = cx_Oracle.connect("myuser", "mypassword", "my_tnsnames")
 ```
 with proper credentials and TNS names from Connection strings, this one normally .._low, _high 
 

@@ -3,7 +3,7 @@ This note helps who wants to setup an environment for a Machine Learning project
 
 ## 1. Install Oracle Instant Client
 Download from ["here"](https://www.oracle.com/database/technologies/instant-client/downloads.html)
-the right package for Autonomous DB: **instantclient-basic-linux.x64-18.5.0.0.0dbru.zip** 
+the right package for Autonomous DB: **instantclient-basic-linux.x64-18.5.0.0.0dbru.zip**   
 Unzip in a directory, for example **/home/ubuntu/instantclient_18_5/** and:
 
 ```
